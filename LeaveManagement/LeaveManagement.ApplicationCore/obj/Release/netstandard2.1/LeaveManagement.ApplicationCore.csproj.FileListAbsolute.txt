@@ -1,0 +1,9 @@
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\bin\Release\netstandard2.1\LeaveManagement.ApplicationCore.deps.json
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\bin\Release\netstandard2.1\LeaveManagement.ApplicationCore.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\bin\Release\netstandard2.1\LeaveManagement.ApplicationCore.pdb
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\obj\Release\netstandard2.1\LeaveManagement.ApplicationCore.csprojAssemblyReference.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\obj\Release\netstandard2.1\LeaveManagement.ApplicationCore.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\obj\Release\netstandard2.1\LeaveManagement.ApplicationCore.AssemblyInfo.cs
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\obj\Release\netstandard2.1\LeaveManagement.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\obj\Release\netstandard2.1\LeaveManagement.ApplicationCore.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.ApplicationCore\obj\Release\netstandard2.1\LeaveManagement.ApplicationCore.pdb

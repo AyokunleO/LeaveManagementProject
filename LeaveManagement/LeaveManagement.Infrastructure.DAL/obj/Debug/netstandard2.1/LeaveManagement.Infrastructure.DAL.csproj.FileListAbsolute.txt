@@ -1,0 +1,12 @@
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\bin\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.deps.json
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\bin\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\bin\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.pdb
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\bin\Debug\netstandard2.1\LeaveManagement.ApplicationCore.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\bin\Debug\netstandard2.1\LeaveManagement.ApplicationCore.pdb
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.csprojAssemblyReference.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.AssemblyInfo.cs
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.csproj.CopyComplete
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.DAL\obj\Debug\netstandard2.1\LeaveManagement.Infrastructure.DAL.pdb

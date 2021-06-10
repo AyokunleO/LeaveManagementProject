@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:LeaveMgt.Views"
+             x:Class="LeaveMgt.AppShell"
+             xmlns:viewss="clr-namespace:LeaveMgt.Views.StaffViews"
+             xmlns:viewsss="clr-namespace:LeaveMgt.Views.Admin"
+             Shell.NavBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled"
+             >
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ThemeColor">white</Color>
+            <Color x:Key="GrayColor">#BCC6CC</Color>
+            <Color x:Key="BGColor">#FF1F356F</Color>
+
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource BGColor}"/>
+                <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource ThemeColor}"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource GrayColor}"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource ThemeColor}"/>
+            </Style>
+            <Style TargetType="Tab" BasedOn="{StaticResource BaseStyle}"/>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar>
+        <Tab Title="DashBoard" Icon="leaveApp">
+            <ShellContent ContentTemplate="{DataTemplate viewsss:DashBoard}"/>
+        </Tab>
+        <Tab Title="Leave Application" Icon="leaveApp">
+            <ShellContent Title="Leave Application" ContentTemplate="{DataTemplate viewss:LeaveApplication}" Icon="leaveApp"/>
+        </Tab>
+        <Tab Title="Leave Status" Icon="LeaveRes">
+            <ShellContent Title="Leave Application" ContentTemplate="{DataTemplate viewss:LeaveStatus}"/>
+        </Tab>
+        <Tab Title="Profile" Icon="profile">
+            <ShellContent ContentTemplate="{DataTemplate views:Profile}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>

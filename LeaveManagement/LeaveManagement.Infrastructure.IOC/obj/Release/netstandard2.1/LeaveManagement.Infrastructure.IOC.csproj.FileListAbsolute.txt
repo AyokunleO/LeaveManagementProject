@@ -1,0 +1,14 @@
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.deps.json
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.pdb
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.ApplicationCore.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.Infrastructure.DAL.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.ApplicationCore.pdb
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\bin\Release\netstandard2.1\LeaveManagement.Infrastructure.DAL.pdb
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.csprojAssemblyReference.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.AssemblyInfo.cs
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.csproj.CopyComplete
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.dll
+C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Infrastructure.IOC\obj\Release\netstandard2.1\LeaveManagement.Infrastructure.IOC.pdb

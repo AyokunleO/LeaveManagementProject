@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Presentation.API\obj\Debug\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\CodebitsAcademy\ClassSessions\Xamarin\Xamarin LabTask\LeaveManagement\LeaveManagement.Presentation.API\obj\Debug\net5.0\PubTmp\EFSQLScripts\LeaveManagement.Infrastructure.DAL.DBContext.LeaveManagementDbContext.sql" />
+</sitemanifest>

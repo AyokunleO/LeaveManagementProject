@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.StaffViews.Employee.EmployeeAppShell"
+       xmlns:views="clr-namespace:LeaveMgt.Views.StaffViews"
+       xmlns:view="clr-namespace:LeaveMgt.Views"
+        Shell.NavBarIsVisible="False"
+         Shell.FlyoutBehavior="Disabled"
+       Visual="Material">
+
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ThemeColor">white</Color>
+            <Color x:Key="GrayColor">#BCC6CC</Color>
+            <Color x:Key="BGColor">#00008B</Color>
+
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource BGColor}"/>
+                <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource ThemeColor}"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource GrayColor}"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource ThemeColor}"/>
+            </Style>
+            <Style TargetType="Tab" BasedOn="{StaticResource BaseStyle}"/>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar>
+        <Tab Title="Leave Application" Icon="leaveApp">
+            <ShellContent ContentTemplate="{DataTemplate views:LeaveApplication}"/>
+        </Tab>
+        <Tab Title="Leave Status" Icon="LeaveRes">
+            <ShellContent ContentTemplate="{DataTemplate views:LeaveStatus}"/>
+        </Tab>
+        <Tab Title="Profile" Icon="profile">
+            <ShellContent ContentTemplate="{DataTemplate view:Profile}"/>
+        </Tab>
+    </TabBar>
+</Shell>

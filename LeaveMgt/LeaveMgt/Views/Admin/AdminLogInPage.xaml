@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.AdminLogInPage"
+             xmlns:vm="clr-namespace:LeaveMgt.ViewModels"
+             Visual="Material"
+             Padding="10">
+
+    <ContentPage.BindingContext>
+        <vm:AdminLogInViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="200, *">
+
+            <StackLayout Grid.Row="0" VerticalOptions="CenterAndExpand" HeightRequest="200">
+                <Image Source="logo2" WidthRequest="200" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Orientation="Vertical">
+                <Label Text="Staff Login Page" HorizontalTextAlignment="Center" TextColor="#FF1F356F" FontSize="35"/>
+                <Frame BackgroundColor="#FF1F356F">
+                    <StackLayout Spacing="5">
+                        <Entry Placeholder="Email" Keyboard="Text" PlaceholderColor="Black"/>
+                        <Entry Placeholder="Password" Keyboard="Text" PlaceholderColor="Black" IsPassword="True"/>
+                    </StackLayout>
+                </Frame>
+                <Button Text="LOGIN" TextColor="#fff" BackgroundColor="#FF1F356F" FontSize="20" HeightRequest="50" CornerRadius="10" Margin=" 0,20,0,0" Clicked="button_clicked" Command="{Binding LogInCommand}"/>
+
+            </StackLayout>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

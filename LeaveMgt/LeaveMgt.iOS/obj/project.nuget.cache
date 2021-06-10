@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SUxHk6BsInb1lRZblFJ27K+Wb8eq7qg8UFsHw/nFYGuLIFWt4+afQ21x6BgK/ZtFUsO2zV83/WWPM7Q6i0EWgg==",
+  "success": true,
+  "projectFilePath": "C:\\CodebitsAcademy\\ClassSessions\\Xamarin\\Xamarin LabTask\\LeaveMgt\\LeaveMgt.iOS\\LeaveMgt.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MY PC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\MY PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\MY PC\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2012\\xamarin.forms.visual.material.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\MY PC\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

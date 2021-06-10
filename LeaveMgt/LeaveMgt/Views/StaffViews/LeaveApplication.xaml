@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.StaffViews.LeaveApplication"
+             BackgroundColor="#F5F5F5">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="50,auto">
+            <StackLayout Background="#00008B" Grid.Row="0" HeightRequest="50">
+                <Label Text="New Leave Application" TextColor="#fff" FontSize="20" VerticalOptions="CenterAndExpand" Padding="10,0"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <ScrollView>
+                    <StackLayout Padding="10,0" >
+                        <Frame BackgroundColor="#fff" CornerRadius="10">
+                            <StackLayout>
+                                <Label Text="Leave Type:" TextColor="black" FontSize="15"/>
+                                <Picker x:Name="LeavePicker" Title="Leave Type" SelectedIndexChanged="LeavePicker_OnSelectedIndexChanged"/>
+
+                                <Label Text="Leave Start Date:" TextColor="black" FontSize="15"/>
+                                <DatePicker MinimumDate="01/01/2020" MaximumDate="01/01/2400" DateSelected="SelectedDate"/>
+
+                                <Label Text="Leave End Date:" TextColor="black" FontSize="15"/>
+                                <DatePicker MinimumDate="01/01/2020" MaximumDate="01/01/2400" DateSelected="SelectedDate"/>
+
+                                <Label Text="Date of Application:" TextColor="black" FontSize="15"/>
+                                <DatePicker MinimumDate="01/01/2020" MaximumDate="01/01/2400" DateSelected="SelectedDate"/>
+
+                                <!--<Label Text="Send Request To (For Approval):" TextColor="black" FontSize="15"/>-->
+                                <!--<Picker x:Name="RequestPicker" Title="Leave Type" SelectedIndexChanged="RequestPicker_OnSelectedIndexChanged"/>-->
+
+                                <Button Text="APPLY" TextColor="#fff" BackgroundColor="#00008B" FontSize="20" HeightRequest="50" CornerRadius="10" Margin="5"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

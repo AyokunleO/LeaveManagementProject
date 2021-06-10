@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.Admin.DashBoard">
+    <ContentPage.Content>
+        <Grid RowDefinitions="50,auto, auto" ColumnDefinitions="*,*">
+            <StackLayout Background="#FF1F356F" Grid.Row="0" HeightRequest="50" Grid.ColumnSpan="2">
+                <Label Text="DashBoard" TextColor="#fff" FontSize="20" VerticalOptions="CenterAndExpand" Padding="10,0"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" HeightRequest="100">
+                <Frame BackgroundColor="#FF1F356F" WidthRequest="100" Grid.Column="0" CornerRadius="10">
+                    <StackLayout Orientation="Vertical">
+                        <Image Source="addEmp" WidthRequest="40"/>
+                        <Label Text="Add Employee" TextColor="#fff" HorizontalTextAlignment="Center" FontSize="15" Margin="0,-10,0,0">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AddEmployee_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FF1F356F" WidthRequest="100" Grid.Column="1" CornerRadius="10">
+                    <StackLayout Orientation="Vertical">
+                        <Image Source="allEmp" WidthRequest="40"/>
+                        <Label Text="All Employees" TextColor="#fff" HorizontalTextAlignment="Center" FontSize="15" Margin="0,-10,0,0">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AllEmployee_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" HeightRequest="100">
+                <Frame BackgroundColor="#FF1F356F" WidthRequest="100" Grid.Column="0" CornerRadius="10">
+                    <StackLayout Orientation="Vertical">
+                        <Image Source="leaveApp" WidthRequest="40"/>
+                        <Label Text="All Requests" TextColor="#fff" HorizontalTextAlignment="Center" FontSize="15" Margin="0,-10,0,0">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AllRequest_Tapped"/>
+                            </Label.GestureRecognizers>
+                        
+                        </Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FF1F356F" WidthRequest="100" Grid.Column="1" CornerRadius="10">
+                    <StackLayout Orientation="Vertical" >
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <Label>
+                
+            </Label>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

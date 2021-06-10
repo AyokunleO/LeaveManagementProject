@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.Admin.AllRequests"
+             xmlns:vm="clr-namespace:LeaveMgt.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:AllRequestsViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Grid RowDefinitions="50,*">
+            <StackLayout Background="#FF1F356F" Grid.Row="0" HeightRequest="50">
+                <Label Text="Leave Requests" TextColor="#fff" FontSize="20" VerticalOptions="CenterAndExpand" Padding="10,0"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <ScrollView>
+                    <ListView ItemsSource="{Binding LeaveApplication}" BackgroundColor="Transparent" HasUnevenRows="True" >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.ContextActions>
+                                        <MenuItem Text="Favourite"/>
+                                    </ViewCell.ContextActions>
+                                    <Grid Padding="10">
+                                        <Frame CornerRadius="10" HasShadow="True">
+                                            <StackLayout>
+                                                <StackLayout>
+                                                    <Label Text="Employee Name:" FontSize="15" FontAttributes="Bold"/>
+                                                    <Label Text="{Binding Employee}" FontSize="15" TextColor="Black"/>
+                                                    <Label Text="Employee's LeaveType:" FontSize="15" FontAttributes="Bold"/>
+                                                    <Label Text="{Binding LeaveType}" FontSize="15" TextColor="Black"/>
+                                                    <Label Text="Leave Status:" FontSize="15" FontAttributes="Bold"/>
+                                                    <Label Text="{Binding Status}" FontSize="15" TextColor="Black"/>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

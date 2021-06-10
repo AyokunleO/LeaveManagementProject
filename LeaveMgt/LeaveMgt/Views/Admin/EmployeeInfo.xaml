@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.Admin.EmployeeInfo"
+             xmlns:vm="clr-namespace:LeaveMgt.ViewModels"
+             BackgroundColor="#fff">
+    <ContentPage.BindingContext>
+        <vm:EmployeeInfoViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="50,*">
+            <StackLayout Background="#00008B" Grid.Row="0" HeightRequest="50">
+                <Label Text="Employee Infomation" TextColor="#fff" FontSize="20" VerticalOptions="CenterAndExpand" Padding="10,0"/>
+            </StackLayout>
+
+
+           
+                <Frame Grid.Row="1" CornerRadius="10" HeightRequest="200" Margin="10" Padding="20">
+                <ScrollView>
+                    <Grid ColumnDefinitions="*,*,*" RowDefinitions="auto,auto, auto, auto, auto, auto, auto, auto">
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="0">
+                            <Label Text="First Name:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.FirstName}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="1"  Margin="0,5,0,0">
+                            <Label Text="Last Name:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.LastName}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="2" Margin="0,5,0,0">
+                            <Label Text="DOB:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.DateOfBirth}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="3" Margin="0,5,0,0">
+                            <Label Text="Phone No:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.Telephone}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="4" Margin="0,5,0,0">
+                            <Label Text="Designation:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.UserRole}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="5" Margin="0,5,0,0">
+                            <Label Text="Employment Date:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.EmploymentDate}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="6" Margin="0,5,0,0">
+                            <Label Text="Email Address:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.Email}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="7" Margin="0,5,0,0">
+                            <Label Text="Home Address:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                            <Label Text="{Binding SelectedEmployee.Address}" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        </StackLayout>
+                    </Grid>
+                </ScrollView>
+            </Frame>
+            
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

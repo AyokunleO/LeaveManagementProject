@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJKIVnZO1KU+PRPrucGPMLAAAAAACAAAAAAAQZgAAAAEAACAAAAC8kCjNGRasUJ4qymkpbZeCrUfKrxP54r4XvSrwPiM74AAAAAAOgAAAAAIAACAAAAAWDWaWUlwfUh2ZN3pkWf9uX8FUHiFyKo55W87ko57X5YAAAADsOz4bIsIjMDmBahiNuX2QhgAVa29v69seAO6uL/jkTFdIycv7ReRBxy/NaPegT35y86EX1qciW9YG+/5oktZK4Xrr/xurDLHJl/JtWUcQEButqUanfuwfrHqTWbWAmKVDyFEZkrCb5/SqzA1XG2ql8fo3XEAcCzq2yeFWVfLgWUAAAACye4o0TfyzBDvTDgSCqEr1cwFiQd8wWIDIEQIV0qGGPuTNtmCuFtUHun0LfXL6DD8N5rrIhBW7UuiX22TyocZj</EncryptedPassword>
+    <History>True|2021-06-09T15:17:08.8543279Z;True|2021-06-09T16:09:15.4339714+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:onadijiayokunleapiserver.database.windows.net,1433%3bInitial Catalog=LeaveManagement.Presentation.API_db%3bUser Id=Ayoonadiji%40onadijiayokunleapiserver%3bPassword=Oafn%401303</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="LeaveManagement.Infrastructure.DAL.DBContext.LeaveManagementDbContext">
+      <Value>Data Source=tcp:onadijiayokunleapiserver.database.windows.net,1433%3bInitial Catalog=LeaveManagement.Presentation.API_db%3bUser Id=Ayoonadiji%40onadijiayokunleapiserver%3bPassword=Oafn%401303</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

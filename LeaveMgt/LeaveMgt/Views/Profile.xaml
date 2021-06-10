@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeaveMgt.Views.Profile"
+             BackgroundColor="#fff">
+    <ContentPage.Content>
+        <Grid RowDefinitions="50,*">
+            <StackLayout Background="#FF1F356F" Grid.Row="0" HeightRequest="50">
+                <Label Text="My Profile" TextColor="#fff" FontSize="20" VerticalOptions="CenterAndExpand" Padding="10,0"/>
+            </StackLayout>
+
+
+            <Frame Grid.Row="1" CornerRadius="10" HeightRequest="200" Margin="10" Padding="20">
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="auto,auto, auto, auto, auto">
+                    <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="0">
+                        <Label Text="First Name:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                        <Label Text="Ayokunle" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="1"  Margin="0,5,0,0">
+                        <Label Text="Last Name:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                        <Label Text="Olufunto" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="2" Margin="0,5,0,0">
+                        <Label Text="DOB:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                        <Label Text="13/03/0000" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="3" Margin="0,5,0,0">
+                        <Label Text="Phone No:" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                        <Label Text="029939394940" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Grid.ColumnSpan="3" Grid.Row="4" Margin="0,5,0,0">
+                        <Label Text="Designation" FontSize="15" TextColor="Black" FontAttributes="Bold" Grid.Column="0"/>
+                        <Label Text="Admin" FontSize="15" TextColor="Black" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
